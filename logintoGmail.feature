@@ -7,10 +7,7 @@ And I enter password
 When I click on Next button 
 Then I should navigate to Inbox page
 
-
-Scenario: Sending mail
-Given I am on the compose page
-And I enter emailid
-And I enter subject
-When I click on send button
+Scenario: Logout gmail
+When click on Google account button
+And I click on signout button
     
